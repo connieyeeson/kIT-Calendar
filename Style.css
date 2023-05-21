@@ -36,7 +36,7 @@ body {
     grid-template-columns: 430px 430px 430px 430px;
     /* grid-template-rows: 300px 200px p; */
     justify-content: center;
-    
+    padding: 2rem;
 
   
 }
@@ -68,6 +68,8 @@ body {
 
 }
 
+
+
 #jan {
      
     display: flex;
@@ -78,6 +80,8 @@ body {
     cursor: pointer;
 
 }
+
+
 
 #fed {
 
