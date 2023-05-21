@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: burlywood;
+    width: 100%;
+    height: 100vh;
+}
+
+
+        header{
+
+            background-color: #7A3E3E;
+            color: antiquewhite;
+            width: 40rem;
+            height: 5rem;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            text-align: center;
+            margin-top: 2rem;
+            padding: 1.5rem;
+            border-radius: 3rem;
+            border: 5px peachpuff solid;
+            font-size: 2rem;
+            box-shadow: 2px 5px palegoldenrod;
+
+        }
+
+.container {
+
+    height: 60rem;
+    display: grid;
+    grid-template-columns: 430px 430px 430px 430px;
+    /* grid-template-rows: 300px 200px p; */
+    justify-content: center;
+    
+
+  
+}
+
+.months {
+
+    background-color:#47A992;
+    display:flex;
+    flex-direction: row;
+    border: 2px solid #D4ADFC;
+    border-radius: 5px;
+    margin: 2rem;
+
+    
+}
+
+.month {
+
+    background-color: #EEEEEE;
+    width: 35vh;
+    height: 5vh;
+    margin-bottom: 10px;
+    border-radius:10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #29064d;
+    box-shadow: 4px 2px #7A3E3E;
+
+}
+
+#jan {
+     
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#fed {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#mar {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+#apr {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#may {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#june {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#july {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#aug {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#sept {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#oct{
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#nov {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#dec {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+.week_day {
+
+    /* background-color: grey; */
+    width: 20vw ;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+    /* display:grid;
+    grid-template-columns: 25px 25px 25px 25px 25px 25px 25px;
+    grid-template-rows: 29px 29px 29px; */
+
+}
+.week_1 {
+    background-color: antiquewhite;
+    width: 20vw;
+    display: flex;
+    justify-content: space-around;    
+    
+}
+
+.days {
+    display: flex;
+
+}
+
+.days div {
+    background-color: #e2ebe9;
+    margin: 6px;
+    width: 2.2rem;
+    text-align: center;
+    border: 1px solid;
+    cursor: pointer;
+}
+.days p {
+    font-size: 5px;
+    
+}
